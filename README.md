@@ -16,7 +16,7 @@ Afterwards, all currently active HiD compliant consumer control devices are disa
 you can manually re-enable any of them from the device manager after the script is run
 
 This script is accompanied by a 'closeGame' script, that should be run after exiting the game. This will reinstate affinity to all processor cores for Steam,
-and re-enable all HiD compliant consumer control devices that were disabled in the 'startGame' script. Not running this script after exiting the game may lead
+and re-enable all HiD compliant consumer control devices that were disabled in the 'openGame' script. Not running this script after exiting the game may lead
 to performance issues for Steam or problems with your input devices.
 
 These scripts are tested and working on a build with a Ryzen 3700x processor and running Windows 10. Other configurations may require small edits to the script,
