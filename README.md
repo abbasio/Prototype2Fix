@@ -6,7 +6,16 @@ The game "Prototype 2" on Steam has a very common problem of crashing on startup
 The most common working solution I have seen is as follows: Disable HiD compliant consumer control devices, 
 and reduce the number of processor cores that the .exe uses to 4.
 
-Both of these can be done manually - disabling the devices via device manager, and modifying processor affinity via the task manager.
+Both of these can be done manually.
+
+* **Disabling the HiD consumer control devices via device manager**
+<img src="https://i.imgur.com/z4vuchd.png" width="500" title="Device Manager">
+
+
+* **Modifying processor affinity via the Details tab in task manager**
+<img src="https://i.imgur.com/TtGXrHS.png" width="500" title="Device Manager">
+
+
 This script serves to automate both of those processes and then launch the .exe, so that the game can be opened simply by running this script
 instead of requiring a tedious process every time the game needs to be launched. 
 
