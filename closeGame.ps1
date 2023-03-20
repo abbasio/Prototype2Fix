@@ -14,5 +14,5 @@ $InstanceIds = (Get-PnpDevice -FriendlyName 'HID-compliant consumer control devi
 For ($i = 0; $i -le InstanceIds.Length; $i++){
     Enable-PnpDevice -InstanceId $InstanceIds[$i] -Confirm:$false
 }
-
+    
 
